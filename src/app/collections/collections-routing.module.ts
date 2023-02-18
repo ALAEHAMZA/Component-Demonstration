@@ -6,7 +6,7 @@ import { CompaniesComponent } from './companies/companies.component';
 import { PartnersComponent } from './partners/partners.component';
 
 const routes: Routes = [{
-  path: 'collections',
+  path: '',
   component: CollectionHomeComponent,
   children:[
     {path: "", component: BiographyComponent},
